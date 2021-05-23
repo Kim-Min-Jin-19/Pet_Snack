@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.imgBtn2:
-                intent = new Intent(this, snack.class);
+                intent = new Intent(this, snack_register.class);
                 startActivity(intent);
                 break;
             default: break;
